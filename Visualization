@@ -1,0 +1,29 @@
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[scale=1.2, font=\small]
+    % Axes
+    \draw[->, thick] (0,0) -- (6,0) node[right] {Distance ($D$)};
+    \draw[->, thick] (0,0) -- (0,4.5) node[above] {Magnitude};
+
+    % Power Inversion Curve (blue)
+    \draw[blue, thick, domain=0.5:5.5, smooth, samples=100] 
+        plot (\x, {3/\x}) node[right, black] {$\mathcal{P}(D)$ (Capability)};
+
+    % Fragility Curve (red)
+    \draw[red, thick, domain=0:5.5, smooth, samples=100] 
+        plot (\x, {3.5*(1 - exp(-\x))}) node[right, black] {$F(D)$ (Fragility)};
+
+    % Annotations
+    \node[below, align=center] at (1, 0.2) {Addressable Ground\\($D=0$)};
+    \node[above, align=center] at (5, 3.8) {Geometric Impossibility\\(High-$D$ Noise)};
+
+    % Optional grid for clarity
+    \draw[gray!30, step=1] (0,0) grid (5.8,4.3);
+
+    % Legend
+    \draw[blue, thick] (0.5, 3.8) -- (1.5, 3.8) node[right] {Capability $\mathcal{P}(D)$};
+    \draw[red, thick] (0.5, 3.3) -- (1.5, 3.3) node[right] {Fragility $F(D)$};
+\end{tikzpicture}
+\caption{The Power Inversion: As distance $D$ from the ground increases, true capability $\mathcal{P}(D)$ collapses while structural fragility $F(D)$ approaches unity. Navigation is only viable near $D=0$.}
+\label{fig:power-inversion}
+\end{figure}
