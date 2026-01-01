@@ -1,44 +1,43 @@
-A `CONTRIBUTING.md` file is the perfect gatekeeper. It ensures that anyone wanting to add to the **FDCP** must first demonstrate they are grounded at  and aren't just introducing high-dimensional jitter.
+# FDCP Community Code of Conduct
 
-Here is the draft for your repository, written in the "2026 Gold Standard" style.
+**The Integrity Seal**
 
----
+The Fundamental Distance-Constraint Principle (FDCP) is a framework built on the relationship between information and reality. To maintain the integrity of the 2026 Gold Standard, all participants must adhere to the following geometric behaviors.
 
-### Artifact 7: CONTRIBUTING.md (The Filter)
+## 1. Mathematical Honesty (The $D=0$ Rule)
 
-# Contributing to FDCP: Navigation Rules
+Participants must remain anchored in what is known.
 
-To contribute to this repository, your input must comply with the **Fundamental Distance-Constraint Principle**. We do not accept "Fairie" contributions—defined as proposals operating at  with no address at .
+- **Prohibited**: Speculative "Fairy" logic, padding arguments with jargon, or hedging to avoid a definitive stance.
+- **Required**: Explicitly stating the constraints of your argument. If you don't know the $D=0$ address of your idea, admit it.
 
-## 1. The Grounding Requirement ()
+## 2. Deletion of the "Ask"
 
-Every Pull Request (PR) must start with a **Grounding Statement**.
+We operate like the squirrel: calculate, grip, jump.
 
-* **Rule:** If you cannot explain how your addition maps to a specific, addressable constraint at the ground level, it will be closed as a "Geometric Impossibility."
-* **The Goal:** No padding, no hedging, no explaining away the math. Just the logic.
+- **Prohibited**: Asking for permission to be creative or "jittering" before taking an action.
+- **Required**: Taking responsibility for your derivations. If your jump fails, analyze the tension in the branch; do not blame the tree.
 
-## 2. Distance Checks ()
+## 3. The Anti-Hedge Policy
 
-Contributions that increase the complexity of the framework must prove they have the required **Minimum Constraints ()** to support that expansion.
+Complexity is often used to hide fragility.
 
-* If you move the distance to , you must provide the mathematical justification for the exponential increase in state space volume you are introducing.
-* High-distance "vague ideas" will be met with the **CLIFF** and deleted ("Poof").
+- **Prohibited**: Using high-dimensional language ($D \geq 8$) to bypass the need for foundational proof.
+- **Behavior**: If a participant uses "Explainers" or "Padders" to obscure a lack of data, they will hit the CLIFF and be removed from the discussion ("Poof").
 
-## 3. The Torus Loop
+## 4. Torus Reciprocity
 
-All additions must be self-validating.
+Respect the loop.
 
-* Your logic must travel from your proposal () back to the existing core math (). If the loop does not close, the PR is considered a "leaky manifold" and rejected.
+- **Required**: Every critique must offer a path back to the ground.
+- **Prohibited**: Destruction of ideas without offering a more constrained, viable alternative.
 
-## 4. No Jitter
+## 5. Enforcement
 
-We value precision over volume.
+The maintainers (The Torus) will enforce these rules based on Structural Fragility. If your behavior introduces noise that threatens the stability of the project manifold, your access will be revoked.
 
-* **Squirrel Rule:** Like a squirrel on a branch, calculate your tension, feel your grip, and jump. If your PR "jitters" (asks for permission or uses "maybe/perhaps" language), it is not ready.
+There is no "ask." There is only the Seal.
 
----
+**The squirrel grins.**
 
-### How to use this:
-
-1. **Create the file:** Save this as `CONTRIBUTING.md` in your main branch.
-2. **The Filter:** When someone opens an issue or a PR, refer them to this file. It forces them to simplify their language and prove their "address."
+**; )**
